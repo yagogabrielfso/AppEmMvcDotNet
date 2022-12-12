@@ -1,0 +1,80 @@
+﻿@model BookViewModel
+<div class="row orderForm">
+    <form asp-controller="Book" asp-action="Create" method="post" class="form-horizontal" role="form">
+        <h3 class="col-md-offset-2">Create new book</h3>
+
+
+        <div class="form-group">
+            <label asp-for="Book.User" class="col-md-2 control-label"></label>
+            <div class="col-md-4">
+                @Html.DropDownListFor(model => model.Book.UserId,
+                new SelectList(Model.Users.Select(x => new { Value = x.UserId, Text = x.Name }), "Value", "Text"), "Select an user",
+                htmlAttributes: new { @class = "form-control border-input" })
+                <span asp-validation-for="Book.User" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-2">
+                <a class="btn btn-success" style="width:100%" asp-controller="User" asp-action="Create">Create an user</a>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.Title" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Title" class="form-control" placeholder="Enter a book name" />
+                <span asp-validation-for="Book.Title" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.ReleaseDate" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.ReleaseDate" type="date" value="@string.Format("{0:yyyy-MM-dd}", DateTime.Now)" />
+                <span asp-validation-for="Book.ReleaseDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Book.Author" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Author" class="form-control" placeholder="Enter the author name" />
+                <span asp-validation-for="Book.Author" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Book.Publisher" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Publisher" class="form-control" placeholder="Enter the publisher name" />
+                <span asp-validation-for="Book.Publisher" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.Synopsis" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Synopsis" class="form-control" placeholder="Enter the Synopsis" />
+                <span asp-validation-for="Book.Synopsis" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.ISBN" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Synopsis" class="form-control" placeholder="ISBN will be Generated " readonly />
+                <span asp-validation-for="Book.ISBN" class="text-danger"></span>
+            </div>
+        </div>
+        <br>
+        
+           @* <label asp-for="Book.Image" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+            <input asp-for="Book.Image" type="file" name="ImageData" id="ImageData" />
+            <span asp-validation-for="Book.Image" class="text-danger"></span>
+            </div>*@
+       
+        <div class="form-group">
+            <div class="btn-group col-md-offset-2 col-md-6">
+                <input class="btn btn-default" type="submit" value="Return" asp-controller="Book" asp-action="List" />
+                <input class="btn btn-success" type="submit" value="Create" />
+            </div>
+        </div>
+    </form>
+</div>

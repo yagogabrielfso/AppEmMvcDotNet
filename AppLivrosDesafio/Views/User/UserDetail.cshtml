@@ -1,0 +1,23 @@
+﻿@using AppLivrosDesafio.Data.Models;
+@model IEnumerable<User>
+
+@{
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a class="btn btn-success mt-5" style="margin: 10px" asp-controller="User" asp-action="Create">Create new user</a>
+
+        <div class="row">
+
+            @foreach (var user in Model)
+            {
+                @Html.Partial("UserPartial", user)
+            }
+
+
+        </div>
+    }
+    else
+    {
+        <h1 class="text-center">BEM VINDO AO SISTEMA DE LIVRARIA.</h1>
+    }
+}

@@ -1,0 +1,65 @@
+﻿@model BookViewModel
+<div class="row orderForm">
+
+    <form asp-controller="Book"  method="post" class="form-horizontal" role="form">
+    <h3 class="col-md-offset-2">View book</h3>
+        @Html.HiddenFor(m => Model.Book.BookId)
+        <div class="form-horizontal">
+            <label asp-for="Book.User.Name" class="col-md-2 control-label"></label>
+            <div class="col-md-6">                                
+                <input asp-for="Book.User.Name" class="form-control" readonly />
+                <span asp-validation-for="Book.User.Name" class="text-danger"></span>            
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.Title" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Title" class="form-control" readonly/>
+                <span asp-validation-for="Book.Title" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+           <label asp-for="Book.ReleaseDate" class="col-md-2 control-label"></label>
+           <div class="col-md-6">                                
+                <input asp-for="Book.ReleaseDate" type="date" value="@string.Format("{0:yyyy-MM-dd}", DateTime.Now)" readonly />
+                <span asp-validation-for="Book.ReleaseDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Book.Author" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Author" class="form-control"  readonly />
+                <span asp-validation-for="Book.Author" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Book.Publisher" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Publisher" class="form-control"  readonly />
+                <span asp-validation-for="Book.Publisher" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.Synopsis" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.Synopsis" class="form-control"  readonly />
+                <span asp-validation-for="Book.Synopsis" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Book.ISBN" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Book.ISBN" class="form-control" readonly />
+                <span asp-validation-for="Book.ISBN" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="btn-group col-md-offset-2 col-md-6">
+                <input class="btn btn-default" type="submit" value="Return" asp-controller="Book" asp-action="List" />                
+            </div>
+        </div>
+
+    </form>
+     
+</div>

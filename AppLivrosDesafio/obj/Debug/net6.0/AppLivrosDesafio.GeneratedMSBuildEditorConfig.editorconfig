@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppLivrosDesafio
+build_property.RootNamespace = AppLivrosDesafio
+build_property.ProjectDir = C:\Users\gabri\Desktop\ProjetosCSHARP\DesafioAM4\AppBiblioteca\AppLivrosDesafio\AppLivrosDesafio\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gabri\Desktop\ProjetosCSHARP\DesafioAM4\AppBiblioteca\AppLivrosDesafio\AppLivrosDesafio
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/EmptyUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFbXB0eVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/ListOrderAZ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xMaXN0T3JkZXJBWi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/ListOrderZA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xMaXN0T3JkZXJaQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Book/ViewBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xWaWV3Qm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Shared/UserPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/User/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/User/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/User/UserDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/Desktop/ProjetosCSHARP/DesafioAM4/AppBiblioteca/AppLivrosDesafio/AppLivrosDesafio/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-87v5chbfwn
